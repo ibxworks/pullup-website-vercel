@@ -25,7 +25,7 @@ export default function HomePage() {
               <Button asChild className="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 text-lg font-medium rounded-full">
                 <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">Get App</a>
               </Button>
-              <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-medium rounded-full">
+              <Button asChild variant="outline" className="border-white text-black hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-medium rounded-full">
                 <a href="#features">View Features</a>
               </Button>
             </div>
