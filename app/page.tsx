@@ -75,13 +75,13 @@ export default function HomePage() {
 
               {/* Right Side - iPhone Image */}
               <div className="flex justify-center">
-                <div className="w-64 h-[500px] relative">
+                <div>
                   <Image
                     src="/placeholder.svg?height=500&width=256&text=PULLUP+Invitations+Feature"
                     alt="PULLUP Invitations feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl"
+                    className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
                 </div>
               </div>
@@ -91,13 +91,13 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-6 items-center">
               {/* Left Side - iPhone Image */}
               <div className="flex justify-center lg:order-1">
-                <div className="w-64 h-[500px] relative">
+                <div>
                   <Image
                     src="/placeholder.svg?height=500&width=256&text=PULLUP+RN+Feature"
                     alt="PULLUP RN feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl"
+                    className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
                 </div>
               </div>
@@ -145,13 +145,13 @@ export default function HomePage() {
 
               {/* Right Side - iPhone Image */}
               <div className="flex justify-center">
-                <div className="w-64 h-[500px] relative">
+                <div>
                   <Image
                     src="/placeholder.svg?height=500&width=256&text=Explore+Feature"
                     alt="Explore Places & Events feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl"
+                    className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
                 </div>
               </div>
