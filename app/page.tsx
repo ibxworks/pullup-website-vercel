@@ -6,7 +6,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600">
       {/* Hero Section */}
       <main className="container mx-auto px-8 py-20">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 min-h-[600px] max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Left Side - Text Content */}
           <div className="text-white space-y-8 text-center lg:text-left flex-1 max-w-2xl">
             {/* Main Headline */}
@@ -31,27 +31,15 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Right Side - iPhone Mockup */}
-          <div className="flex justify-center flex-shrink-0">
-            <div className="relative">
-              <div className="w-80 h-[600px] bg-black rounded-[3rem] p-2 shadow-2xl">
-                <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden relative">
-                  {/* Notch */}
-                  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl z-10"></div>
-
-                  {/* App Screenshot Placeholder */}
-                  <div className="w-full h-full bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center">
-                    <Image
-                      src="/placeholder.svg?height=600&width=320&text=Pull+Up+App"
-                      alt="Pull Up app interface"
-                      width={320}
-                      height={600}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Right Side - Image */}
+          <div className="flex justify-center flex-1">
+            <Image
+              src="/bezel_main.svg"
+              alt="Pull Up app interface"
+              width={320}
+              height={600}
+              className="w-full h-auto object-contain max-w-sm rounded-xl"
+            />
           </div>
         </div>
       </main>
@@ -93,7 +81,7 @@ export default function HomePage() {
                     alt="PULLUP Invitations feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl shadow-lg"
+                    className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
               </div>
@@ -109,7 +97,7 @@ export default function HomePage() {
                     alt="PULLUP RN feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl shadow-lg"
+                    className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
               </div>
@@ -163,7 +151,7 @@ export default function HomePage() {
                     alt="Explore Places & Events feature"
                     width={256}
                     height={500}
-                    className="w-full h-full object-cover rounded-3xl shadow-lg"
+                    className="w-full h-full object-cover rounded-3xl"
                   />
                 </div>
               </div>
@@ -188,7 +176,7 @@ export default function HomePage() {
                   alt="Friends icon"
                   width={64}
                   height={64}
-                  className="rounded-full bg-blue-100 p-3"
+                  className="rounded-full p-3"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900">Meet up with friends and groups easier</h3>
@@ -206,7 +194,7 @@ export default function HomePage() {
                   alt="Compass icon"
                   width={64}
                   height={64}
-                  className="rounded-full bg-green-100 p-3"
+                  className="rounded-full p-3"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900">Discover what's around you</h3>
@@ -224,7 +212,7 @@ export default function HomePage() {
                   alt="Notification icon"
                   width={64}
                   height={64}
-                  className="rounded-full bg-purple-100 p-3"
+                  className="rounded-full p-3"
                 />
               </div>
               <h3 className="text-xl font-bold text-gray-900">Get notifications that matter</h3>
@@ -248,7 +236,7 @@ export default function HomePage() {
                 alt="Cornell Student 1"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "18%", top: "60px" }}>
@@ -257,7 +245,7 @@ export default function HomePage() {
                 alt="Cornell Student 2"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "35%", top: "10px" }}>
@@ -266,7 +254,7 @@ export default function HomePage() {
                 alt="Cornell Student 3"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "50%", top: "70px" }}>
@@ -275,7 +263,7 @@ export default function HomePage() {
                 alt="Cornell Student 4"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "65%", top: "30px" }}>
@@ -284,7 +272,7 @@ export default function HomePage() {
                 alt="Cornell Student 5"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "80%", top: "80px" }}>
@@ -293,7 +281,7 @@ export default function HomePage() {
                 alt="Cornell Student 6"
                 width={96}
                 height={144}
-                className="w-24 h-36 object-cover rounded-xl shadow-lg"
+                className="w-24 h-36 object-cover rounded-xl"
               />
             </div>
           </div>
@@ -315,7 +303,7 @@ export default function HomePage() {
                 alt="Cornell Event 1"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "22%", bottom: "60px" }}>
@@ -324,7 +312,7 @@ export default function HomePage() {
                 alt="Cornell Event 2"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "40%", bottom: "10px" }}>
@@ -333,7 +321,7 @@ export default function HomePage() {
                 alt="Cornell Event 3"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "55%", bottom: "70px" }}>
@@ -342,7 +330,7 @@ export default function HomePage() {
                 alt="Cornell Event 4"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "70%", bottom: "30px" }}>
@@ -351,7 +339,7 @@ export default function HomePage() {
                 alt="Cornell Event 5"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
             <div className="absolute" style={{ left: "85%", bottom: "85px" }}>
@@ -360,7 +348,7 @@ export default function HomePage() {
                 alt="Cornell Event 6"
                 width={144}
                 height={96}
-                className="w-36 h-24 object-cover rounded-xl shadow-lg"
+                className="w-36 h-24 object-cover rounded-xl"
               />
             </div>
           </div>
@@ -380,7 +368,7 @@ export default function HomePage() {
           <div className="flex justify-center">
             <div className="w-full max-w-6xl">
               {/* Timeline Image - Very wide but shallow */}
-              <div className="relative w-full h-[120px] md:h-[300px] rounded-xl shadow-lg overflow-hidden">
+              <div className="relative w-full h-[120px] md:h-[300px] rounded-xl overflow-hidden">
                 <Image
                   src="/placeholder.svg?height=300&width=1200&text=Pull+Up+Development+Timeline"
                   alt="Pull Up development timeline"
