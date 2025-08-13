@@ -117,7 +117,7 @@ export default function RootLayout({
               <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                 <div className="flex items-center space-x-4">
                   <Image
-                    src="/placeholder.svg?height=40&width=80&text=PULL+UP+LOGO"
+                    src="/header_pulluplogo.png?height=40&width=80&text=PULL+UP+LOGO"
                     alt="Pull Up Logo"
                     width={80}
                     height={40}
