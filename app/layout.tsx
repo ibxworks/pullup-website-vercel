@@ -84,8 +84,8 @@ export default function RootLayout({
                 <h4 className="text-lg font-semibold">Company</h4>
                 <ul className="space-y-2 text-gray-300">
                   <li>
-                    <Link href="/about" className="hover:text-white transition-colors">
-                      Contact: admin@ibxworks.com, pullupapp2025@gmail.com
+                    <Link href="/contact" className="hover:text-white transition-colors">
+                      Contact Us
                     </Link>
                   </li>
                   <li>
