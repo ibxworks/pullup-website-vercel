@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import SiteHeader from "@/components/site-header"
 import Link from "next/link"
+import Image from "next/image"
 
 export const metadata: Metadata = {
   title: "v0 App",
@@ -84,7 +85,7 @@ export default function RootLayout({
                 <ul className="space-y-2 text-gray-300">
                   <li>
                     <Link href="/about" className="hover:text-white transition-colors">
-                      About Us
+                      Contact: admin@ibxworks.com, pullupapp2025@gmail.com
                     </Link>
                   </li>
                   <li>
@@ -115,10 +116,13 @@ export default function RootLayout({
             <div className="border-t border-gray-700 mt-12 pt-8">
               <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                 <div className="flex items-center space-x-4">
-                  <div className="flex flex-col items-center font-bold text-lg text-white leading-tight">
-                    <div>PULL</div>
-                    <div>UP</div>
-                  </div>
+                  <Image
+                    src="/placeholder.svg?height=40&width=80&text=PULL+UP+LOGO"
+                    alt="Pull Up Logo"
+                    width={80}
+                    height={40}
+                    className="h-10 w-auto"
+                  />
                   <span className="text-gray-400">© 2024 Pull Up. All rights reserved.</span>
                 </div>
 

@@ -22,10 +22,19 @@ export default function HomePage() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button asChild className="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 text-lg font-medium rounded-full">
-                <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">Get App</a>
+              <Button
+                asChild
+                className="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 text-lg font-medium rounded-full"
+              >
+                <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">
+                  Get App
+                </a>
               </Button>
-              <Button asChild variant="outline" className="border-white text-black hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-medium rounded-full">
+              <Button
+                asChild
+                variant="outline"
+                className="border-white text-black hover:bg-white hover:text-blue-600 px-8 py-3 text-lg font-medium rounded-full bg-transparent"
+              >
                 <a href="#features">View Features</a>
               </Button>
             </div>
@@ -53,7 +62,7 @@ export default function HomePage() {
 
           <div className="space-y-20 max-w-7xl mx-auto">
             {/* Feature 1: PULLUP Invitations - Icon Left, Image Right */}
-            <div className="grid lg:grid-cols-2 gap-6 items-center">
+            <div className="grid lg:grid-cols-2 gap-3 items-center">
               {/* Left Side - Icon and Text */}
               <div>
                 <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 text-center max-w-md">
@@ -68,7 +77,9 @@ export default function HomePage() {
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">PULLUP Invitations</h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Every meetup starts with "You down?" Whether you're gauging interest or locking in RSVPs, Pull Up lets you invite any number of friends instantly—all at once. Start the hangout convo faster than texting, and the rest is easy.
+                    Every meetup starts with "You down?" Whether you're gauging interest or locking in RSVPs, Pull Up
+                    lets you invite any number of friends instantly—all at once. Start the hangout convo faster than
+                    texting, and the rest is easy.
                   </p>
                 </div>
               </div>
@@ -88,7 +99,7 @@ export default function HomePage() {
             </div>
 
             {/* Feature 2: PULLUP RN - Image Left, Icon Right */}
-            <div className="grid lg:grid-cols-2 gap-6 items-center">
+            <div className="grid lg:grid-cols-2 gap-3 items-center">
               {/* Left Side - iPhone Image */}
               <div className="flex justify-center lg:order-1">
                 <div>
@@ -116,14 +127,15 @@ export default function HomePage() {
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">PULLUP RN</h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Want company on demand? Send a spontaneous, story-style invite to select friends for whatever you're doing-grabbing food, hitting the gym, studying, or chilling. Built for fast, unplanned meetups.
+                    Want company on demand? Send a spontaneous, story-style invite to select friends for whatever you're
+                    doing-grabbing food, hitting the gym, studying, or chilling. Built for fast, unplanned meetups.
                   </p>
                 </div>
               </div>
             </div>
 
             {/* Feature 3: Explore Places & Events - Icon Left, Image Right */}
-            <div className="grid lg:grid-cols-2 gap-6 items-center">
+            <div className="grid lg:grid-cols-2 gap-3 items-center">
               {/* Left Side - Icon and Text */}
               <div>
                 <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 text-center max-w-md">
@@ -138,7 +150,8 @@ export default function HomePage() {
                   </div>
                   <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Explore Places & Events</h3>
                   <p className="text-lg text-gray-600 leading-relaxed">
-                    Find restaurants, campus events, and more! Discover what's happening around you and easily invite friends to join you for new experiences and adventures.
+                    Find restaurants, campus events, and more! Discover what's happening around you and easily invite
+                    friends to join you for new experiences and adventures.
                   </p>
                 </div>
               </div>

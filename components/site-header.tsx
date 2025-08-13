@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function SiteHeader() {
   return (
@@ -7,9 +8,14 @@ export default function SiteHeader() {
       {/* Logo and Left Navigation */}
       <div className="flex items-center space-x-8">
         {/* Logo */}
-        <Link href="/" className="flex flex-col items-center font-bold text-xl text-gray-900 leading-tight">
-          <div>PULL</div>
-          <div>UP</div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/placeholder.svg?height=40&width=80&text=PULL+UP+LOGO"
+            alt="Pull Up Logo"
+            width={80}
+            height={40}
+            className="h-10 w-auto"
+          />
         </Link>
 
         {/* Left Navigation */}
@@ -32,7 +38,9 @@ export default function SiteHeader() {
           For Cornell
         </a>
         <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium">
-          <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">Get App</a>
+          <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">
+            Get App
+          </a>
         </Button>
       </div>
     </header>
