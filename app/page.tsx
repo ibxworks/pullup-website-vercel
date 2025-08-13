@@ -77,9 +77,9 @@ export default function HomePage() {
               <div className="flex justify-center">
                 <div>
                   <Image
-                    src="/placeholder.svg?height=500&width=256&text=PULLUP+Invitations+Feature"
+                    src="/features_pullupinvfull.jpg?height=500&width=256&text=PULLUP+Invitations+Feature"
                     alt="PULLUP Invitations feature"
-                    width={256}
+                    width={750}
                     height={500}
                     className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
@@ -93,9 +93,9 @@ export default function HomePage() {
               <div className="flex justify-center lg:order-1">
                 <div>
                   <Image
-                    src="/features_pulluprn.svg?height=500&width=256&text=PULLUP+RN+Feature"
+                    src="/features_pulluprnfull.jpg?height=500&width=256&text=PULLUP+RN+Feature"
                     alt="PULLUP RN feature"
-                    width={256}
+                    width={750}
                     height={500}
                     className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
@@ -107,7 +107,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 text-center max-w-md">
                   <div className="flex justify-center mb-6">
                     <Image
-                      src="/placeholder.svg?height=48&width=48&text=⚡"
+                      src="/features_pulluprn.svg?height=48&width=48&text=⚡"
                       alt="PULLUP RN icon"
                       width={48}
                       height={48}
@@ -147,9 +147,9 @@ export default function HomePage() {
               <div className="flex justify-center">
                 <div>
                   <Image
-                    src="/placeholder.svg?height=500&width=256&text=Explore+Feature"
+                    src="/features_explorefull.jpg?height=500&width=256&text=Explore+Feature"
                     alt="Explore Places & Events feature"
-                    width={256}
+                    width={750}
                     height={500}
                     className="w-full h-auto object-contain max-w-sm rounded-3xl"
                   />
