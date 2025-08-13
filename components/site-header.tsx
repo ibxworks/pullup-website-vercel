@@ -4,7 +4,10 @@ import Image from "next/image"
 
 export default function SiteHeader() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 border-b border-gray-100">
+    <header
+      className="flex items-center justify-between px-6 py-4 border-b"
+      style={{ backgroundColor: "#171717", borderBottomColor: "#1F1F1F" }}
+    >
       {/* Logo and Left Navigation */}
       <div className="flex items-center space-x-8">
         {/* Logo */}
@@ -12,21 +15,21 @@ export default function SiteHeader() {
           <Image
             src="/header_pulluplogo.png?height=40&width=80&text=PULL+UP+LOGO"
             alt="Pull Up Logo"
-            width={80}
-            height={40}
-            className="h-10 w-auto"
+            width={96}
+            height={48}
+            className="h-12 w-auto"
           />
         </Link>
 
         {/* Left Navigation */}
         <nav className="hidden md:flex space-x-6">
-          <Link href="/" className="text-gray-600 hover:text-gray-900 font-medium">
+          <Link href="/" className="text-white hover:text-gray-300 font-medium">
             Home
           </Link>
-          <a href="#features" className="text-gray-600 hover:text-gray-900 font-medium">
+          <a href="#features" className="text-white hover:text-gray-300 font-medium">
             Features
           </a>
-          <a href="#updates" className="text-gray-600 hover:text-gray-900 font-medium">
+          <a href="#updates" className="text-white hover:text-gray-300 font-medium">
             Updates
           </a>
         </nav>
@@ -34,10 +37,14 @@ export default function SiteHeader() {
 
       {/* Right Navigation */}
       <div className="flex items-center space-x-6">
-        <a href="#cornell-section" className="text-gray-600 hover:text-gray-900 font-medium">
+        <a href="#cornell-section" className="text-white hover:text-gray-300 font-medium">
           For Cornell
         </a>
-        <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium">
+        <Button
+          asChild
+          className="border border-white text-white hover:bg-white hover:text-black px-6 py-2 rounded-lg font-medium"
+          style={{ backgroundColor: "#171717" }}
+        >
           <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">
             Get App
           </a>
