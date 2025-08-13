@@ -59,7 +59,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 text-center max-w-md">
                   <div className="flex justify-center mb-6">
                     <Image
-                      src="/placeholder.svg?height=48&width=48&text=📱"
+                      src="/features_pullupinv.svg?height=48&width=48&text=📱"
                       alt="PULLUP Invitations icon"
                       width={48}
                       height={48}
@@ -93,7 +93,7 @@ export default function HomePage() {
               <div className="flex justify-center lg:order-1">
                 <div>
                   <Image
-                    src="/placeholder.svg?height=500&width=256&text=PULLUP+RN+Feature"
+                    src="/features_pulluprn.svg?height=500&width=256&text=PULLUP+RN+Feature"
                     alt="PULLUP RN feature"
                     width={256}
                     height={500}
@@ -129,7 +129,7 @@ export default function HomePage() {
                 <div className="bg-white rounded-3xl p-8 shadow-lg border border-gray-100 text-center max-w-md">
                   <div className="flex justify-center mb-6">
                     <Image
-                      src="/placeholder.svg?height=48&width=48&text=🗺️"
+                      src="/features_explore.svg?height=48&width=48&text=🗺️"
                       alt="Explore Places & Events icon"
                       width={48}
                       height={48}
