@@ -88,14 +88,24 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/privacy" className="hover:text-white transition-colors">
+                    <a
+                      href="https://www.termsfeed.com/live/22d8ba5d-bed8-4b76-b4e4-1d5503d437fe"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-white transition-colors"
+                    >
                       Privacy Policy
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link href="/terms" className="hover:text-white transition-colors">
+                    <a
+                      href="https://app.websitepolicies.com/policies/view/4ed40nd3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="hover:text-white transition-colors"
+                    >
                       Terms of Service
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
