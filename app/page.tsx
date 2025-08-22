@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className="flex justify-center pt-16 pb-20">
         <div className="flex flex-col items-center">
           <a
-            href="https://cornellracing.org/"
+            href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771"
             target="_blank"
             rel="noopener noreferrer"
             className="w-32 h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full shadow-2xl transform hover:scale-105 transition-transform duration-200 relative block"
@@ -215,7 +215,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/placeholder.svg?height=64&width=64"
+                  src="/whydownload_1.png?height=64&width=64"
                   alt="Friends icon"
                   width={64}
                   height={64}
@@ -233,7 +233,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/placeholder.svg?height=64&width=64"
+                  src="/whydownload_2.png?height=64&width=64"
                   alt="Compass icon"
                   width={64}
                   height={64}
@@ -251,7 +251,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <div className="flex justify-center mb-4">
                 <Image
-                  src="/placeholder.svg?height=64&width=64"
+                  src="/whydownload_3.png?height=64&width=64"
                   alt="Notification icon"
                   width={64}
                   height={64}
