@@ -45,7 +45,7 @@ export default function SiteHeader() {
           className="border border-white text-white hover:bg-white hover:text-black px-6 py-2 rounded-lg font-medium"
           style={{ backgroundColor: "#171717" }}
         >
-          <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">
+          <a href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771" target="_blank" rel="noopener noreferrer">
             Get App
           </a>
         </Button>

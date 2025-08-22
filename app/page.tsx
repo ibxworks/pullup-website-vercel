@@ -48,20 +48,18 @@ export default function HomePage() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a
-                href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+              <Button
+                asChild
+                className="bg-[#171717] hover:bg-gray-800 text-white border border-white px-8 py-3 text-lg font-medium rounded-full"
               >
-                <Image
-                  src="/footer_download.svg"
-                  alt="Get Pull Up App"
-                  width={200}
-                  height={60}
-                  className="h-15 w-auto"
-                />
-              </a>
+                <a
+                  href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Get App
+                </a>
+              </Button>
               <Button
                 asChild
                 variant="outline"
@@ -265,42 +263,6 @@ export default function HomePage() {
                 Receive timely alerts for invitations and spontaneous meet-ups from your closest connections, ensuring
                 you never miss out on a moment.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What Cornellians use Pull Up for Section */}
-      <section id="cornell-section" className="py-20 overflow-hidden">
-        <div className="relative h-[500px] md:h-[600px] lg:h-[700px] w-full max-w-7xl mx-auto">
-          {/* Top row of vertical images (phone photo dimensions) */}
-          <div className="absolute w-full h-1/2 top-0 left-0">
-            <div className="absolute" style={{ left: "5%", top: "20px" }}>
-              <Image
-                src="/placeholder.svg?height=144&width=96"
-                alt="Cornell Student 1"
-                width={96}
-                height={144}
-                className="w-24 h-36 object-cover rounded-xl"
-              />
-            </div>
-            <div className="absolute" style={{ left: "18%", top: "60px" }}>
-              <Image
-                src="/placeholder.svg?height=144&width=96"
-                alt="Cornell Student 2"
-                width={96}
-                height={144}
-                className="w-24 h-36 object-cover rounded-xl"
-              />
-            </div>
-            <div className="absolute" style={{ left: "35%", top: "10px" }}>
-              <Image
-                src="/placeholder.svg?height=144&width=96"
-                alt="Cornell Student 3"
-                width={96}
-                height={144}
-                className="w-24 h-36 object-cover rounded-xl"
-              />
             </div>
           </div>
         </div>

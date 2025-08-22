@@ -41,9 +41,9 @@ export default function RootLayout({
                     <Image
                       src="/footer_download.svg"
                       alt="Download on the App Store"
-                      width={180}
-                      height={60}
-                      className="h-15 w-auto"
+                      width={300}
+                      height={100}
+                      className="h-40 w-auto"
                     />
                   </a>
 
