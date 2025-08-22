@@ -32,22 +32,30 @@ export default function RootLayout({
 
                 {/* App Store Button */}
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
-                  <div className="bg-black border border-gray-600 rounded-lg px-6 py-3 flex items-center space-x-3 hover:bg-gray-800 transition-colors cursor-pointer">
-                    <div className="text-2xl">📱</div>
-                    <div>
-                      <div className="text-xs text-gray-300">Download on the</div>
-                      <div className="text-lg font-semibold">App Store</div>
-                    </div>
-                  </div>
+                  <a
+                    href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:opacity-80 transition-opacity"
+                  >
+                    <Image
+                      src="/footer_download.svg"
+                      alt="Download on the App Store"
+                      width={180}
+                      height={60}
+                      className="h-15 w-auto"
+                    />
+                  </a>
 
-                  {/* QR Code Placeholder */}
+                  {/* QR Code */}
                   <div className="bg-white p-4 rounded-lg">
-                    <div className="w-24 h-24 bg-gray-200 rounded flex items-center justify-center">
-                      <div className="text-center text-gray-500 text-xs">
-                        <div className="text-2xl mb-1">📱</div>
-                        <div>QR Code</div>
-                      </div>
-                    </div>
+                    <Image
+                      src="/footer_qrcode.png"
+                      alt="QR Code to download Pull Up app"
+                      width={96}
+                      height={96}
+                      className="w-24 h-24"
+                    />
                   </div>
                 </div>
               </div>

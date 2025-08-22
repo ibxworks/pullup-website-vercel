@@ -48,14 +48,20 @@ export default function HomePage() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                asChild
-                className="bg-[#171717] hover:bg-gray-800 text-white border border-white px-8 py-3 text-lg font-medium rounded-full"
+              <a
+                href="https://apps.apple.com/us/app/pullup-by-ibx/id6749258771"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity"
               >
-                <a href="https://cornellracing.org/" target="_blank" rel="noopener noreferrer">
-                  Get App
-                </a>
-              </Button>
+                <Image
+                  src="/footer_download.svg"
+                  alt="Get Pull Up App"
+                  width={200}
+                  height={60}
+                  className="h-15 w-auto"
+                />
+              </a>
               <Button
                 asChild
                 variant="outline"
