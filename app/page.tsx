@@ -73,7 +73,7 @@ export default function HomePage() {
           {/* Right Side - Image */}
           <div className="flex justify-center flex-1">
             <Image
-              src="/bezel_main.svg"
+              src="/feed.png"
               alt="Pull Up app interface"
               width={320}
               height={600}
