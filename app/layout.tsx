@@ -6,9 +6,14 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
+  title: "Pull Up - Fitness Social App",
+  description: "Connect with fitness enthusiasts and track your workouts with Pull Up",
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function RootLayout({
