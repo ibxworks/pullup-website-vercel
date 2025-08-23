@@ -6,7 +6,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 export const metadata: Metadata = {
-  title: "Pull Up - Fitness Social App",
+  title: "PullUP by IBX",
   description: "Connect with fitness enthusiasts and track your workouts with Pull Up",
   generator: "v0.dev",
   icons: {
