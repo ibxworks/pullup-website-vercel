@@ -24,12 +24,12 @@ export default function TermsPage() {
           <ol className="list-decimal list-inside mb-8 space-y-2 text-gray-300">
             <li>
               <a href="#accounts-and-membership" className="text-blue-400 hover:text-blue-300">
-                Accounts and membership
+                Accounts and Membership
               </a>
             </li>
             <li>
               <a href="#user-content" className="text-blue-400 hover:text-blue-300">
-                User content
+                User Content
               </a>
             </li>
             <li>
@@ -39,28 +39,28 @@ export default function TermsPage() {
             </li>
             <li>
               <a href="#links-to-other-resources" className="text-blue-400 hover:text-blue-300">
-                Links to other resources
+                Links to Other Resources
               </a>
             </li>
             <li>
               <a href="#changes-and-amendments" className="text-blue-400 hover:text-blue-300">
-                Changes and amendments
+                Changes and Amendments
               </a>
             </li>
             <li>
               <a href="#acceptance-of-these-terms" className="text-blue-400 hover:text-blue-300">
-                Acceptance of these terms
+                Acceptance of These Terms
               </a>
             </li>
             <li>
               <a href="#contacting-us" className="text-blue-400 hover:text-blue-300">
-                Contacting us
+                Contacting Us
               </a>
             </li>
           </ol>
 
           <h2 id="accounts-and-membership" className="text-2xl font-bold mb-4 text-white">
-            Accounts and membership
+            Accounts and Membership
           </h2>
           <p className="text-gray-300 mb-6">
             If you create an account in the Mobile Application, you are responsible for maintaining the security of your
@@ -77,7 +77,7 @@ export default function TermsPage() {
           </p>
 
           <h2 id="user-content" className="text-2xl font-bold mb-4 text-white">
-            User content
+            User Content
           </h2>
           <p className="text-gray-300 mb-4">
             We do not own any data, information or material (collectively, "Content") that you submit in the Mobile
@@ -113,7 +113,7 @@ export default function TermsPage() {
           </p>
 
           <h2 id="links-to-other-resources" className="text-2xl font-bold mb-4 text-white">
-            Links to other resources
+            Links to Other Resources
           </h2>
           <p className="text-gray-300 mb-6">
             Although the Mobile Application and Services may link to other resources (such as websites, mobile
@@ -127,7 +127,7 @@ export default function TermsPage() {
           </p>
 
           <h2 id="changes-and-amendments" className="text-2xl font-bold mb-4 text-white">
-            Changes and amendments
+            Changes and Amendments
           </h2>
           <p className="text-gray-300 mb-6">
             We reserve the right to modify this Agreement or its terms related to the Mobile Application and Services at
@@ -143,7 +143,7 @@ export default function TermsPage() {
           </p>
 
           <h2 id="acceptance-of-these-terms" className="text-2xl font-bold mb-4 text-white">
-            Acceptance of these terms
+            Acceptance of These Terms
           </h2>
           <p className="text-gray-300 mb-6">
             You acknowledge that you have read this Agreement and agree to all its terms and conditions. By accessing
@@ -153,7 +153,7 @@ export default function TermsPage() {
           </p>
 
           <h2 id="contacting-us" className="text-2xl font-bold mb-4 text-white">
-            Contacting us
+            Contacting Us
           </h2>
           <p className="text-gray-300 mb-4">
             If you have any questions, concerns, or complaints regarding this Agreement, we encourage you to contact us
